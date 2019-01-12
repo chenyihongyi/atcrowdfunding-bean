@@ -1,0 +1,39 @@
+package com.atguigu.atcrowdfunding.bean;
+
+/**
+ * @Author Elvis Chen
+ * @Date 2019/1/11 19:26
+ * @Version 1.0
+ **/
+public class AccountTypeCert {
+
+    private Integer id;
+
+    private String accttype;
+
+    private Integer certid;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getAccttype() {
+        return accttype;
+    }
+
+    public void setAccttype(String accttype) {
+        this.accttype = accttype;
+    }
+
+    public Integer getCertid() {
+        return certid;
+    }
+
+    public void setCertid(Integer certid) {
+        this.certid = certid;
+    }
+}
