@@ -66,7 +66,5 @@ public class User {
     public void setCreatetime(String createtime) {
         this.createtime = createtime;
     }
-    
-    // TODO day03 part03 8：41
 
 }
